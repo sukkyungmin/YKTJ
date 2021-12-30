@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SAPUpdate(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\SAPUpdate(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yuhan_kimberly_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\yuhan_kimberly_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\1(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj03_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj03_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report2(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ03-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ03-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report1(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report1(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ22-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ22-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ01-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ01-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_production_plan_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_production_plan_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="period_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\period_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_취소(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Admin_취소(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchLogList(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\SearchLogList(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAPUpdate(Normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\SAPUpdate(Normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="저장(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\저장(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_machine_status_prd_type_pants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_machine_status_prd_type_pants.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_setting_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_setting_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_저장(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_저장(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj01_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj01_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_변경(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_변경(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RMT(Normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\RMT(Normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트일괄처리(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트일괄처리(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_취소(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Admin_취소(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="파일선택(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\파일선택(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="검색(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\검색(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Cancel(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpi_oee_minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\kpi_oee_minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="factory_layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\factory_layout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\report_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj02_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj02_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_bcig_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_bcig_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report4(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report4(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ01-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ01-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="추가(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\추가(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj04_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj04_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ21-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ21-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\home(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RMT(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\RMT(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_다운로드(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_다운로드(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ04-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ04-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_bom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_bom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_machine_status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_machine_status.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_search_log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_search_log.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_select_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_select_line.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_추가(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_추가(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_status_off_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\machine_status_off_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_butt_value_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_butt_value_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TODAY(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TODAY(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tool-bar(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\tool-bar(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="추가(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\추가(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ21-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ21-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_login(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\main_login(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_목록(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_목록(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_목록(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_목록(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_production_prediction_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_production_prediction_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report1(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report1(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowProgressBarBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ArrowProgressBarBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj05_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj05_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_status_on_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\machine_status_on_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_material_sum_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\raw_material_sum_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preview_report_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\preview_report_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Login(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_schedule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report3(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report3(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj22_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj22_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_machine_status_prd_type_diaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_machine_status_prd_type_diaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_취소(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Admin_취소(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_추가(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_추가(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="admin(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\admin(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_다운로드(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_다운로드(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\filter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_user_list_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\an_user_list_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpi_oee_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\kpi_oee_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_security_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\an_security_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_다운로드(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_다운로드(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tool-bar(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\tool-bar(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ05-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ05-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_setting_butt_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_setting_butt_setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_butt_value_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_butt_value_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_pdf_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\export_pdf_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_삭제(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_삭제(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\5(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\5(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_machine_status_running" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_machine_status_running.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_sap_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_sap_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="확인(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\확인(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report3(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report3(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_free_board_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ly_free_board_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_butt_value_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_butt_value_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_total" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_total.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machinstatus(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\machinstatus(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="period" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\period.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_login(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\main_login(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\50(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_삭제(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_삭제(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\update(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raw_material_detail_sum_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\raw_material_detail_sum_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TODAY(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TODAY(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_common_library_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ly_common_library_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\취소(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_product.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\home_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Cancel(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_저장(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_저장(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_machine_status_prd_version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_machine_status_prd_version.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_ccig_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_ccig_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소(down)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\취소(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj21_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj21_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="삭제(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\삭제(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateReport(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\CreateReport(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_ok_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_ok_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background(main)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\background(main).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login(normal)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Login(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_line.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_excel_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\export_excel_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_변경(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_변경(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="검색(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\검색(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ22-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ22-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_삭제(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_삭제(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\no_person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_sap_update_schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_sap_update_schedule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_team" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_team.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="admin(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\admin(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_저장(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_저장(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="production_history_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\production_history_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_status_off_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\machine_status_off_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\취소(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_free_board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_free_board.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_butt_value_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_butt_value_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소(normal)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\취소(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_butt_value_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_butt_value_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine_status_on_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\machine_status_on_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\login_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report4(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report4(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="100(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\100(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\search(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ02-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ02-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estimate(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Estimate(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="팝업창기본조건아이콘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\팝업창기본조건아이콘.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="100(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\100(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="삭제(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\삭제(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="확인(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\확인(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freeboard(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\freeboard(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_검색(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_검색(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="변경(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\변경(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_sap_update_bom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_sap_update_bom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\10(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_notice_board_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ly_notice_board_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="저장(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\저장(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_report_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\print_report_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_update_length" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_update_length.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\50(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="변경(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\변경(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="삭제(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\삭제(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="취소(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\취소(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estimate(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Estimate(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\10(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su_ok_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\su_ok_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notice(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\notice(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\home(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAPUpdate(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\SAPUpdate(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ02-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ02-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트일괄처리(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트일괄처리(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ05-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ05-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_검색(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_검색(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ03-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ03-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_personal_library_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ly_personal_library_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_production_calendar_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_production_calendar_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_address_book_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ly_address_book_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJAsset(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJAsset(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ta_oee_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ta_oee_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="total_waste_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\total_waste_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="파일선택(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\파일선택(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowProgressBarFront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ArrowProgressBarFront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\search_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트일괄처리(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트일괄처리(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="유한킴벌리로고" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\유한킴벌리로고.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJAsset(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJAsset(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\filter_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_sap_update_product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_sap_update_product.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateReport(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\CreateReport(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Report2(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\1(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\refresh_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ04-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ04-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login(normal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Login(normal).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\export_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="저장(down)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\저장(down).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="변경(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\변경(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Library_변경(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Library_변경(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home(icon)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\home(icon).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background(main)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\background(main).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he_notice_board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\he_notice_board.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB업데이트(disabled)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\DB업데이트(disabled).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt_tj23_ribbon_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\rt_tj23_ribbon_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ23-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ23-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TJ23-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TJ23-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

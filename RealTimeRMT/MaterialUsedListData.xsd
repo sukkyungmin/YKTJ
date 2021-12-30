@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaterialUsedListData" targetNamespace="http://tempuri.org/MaterialUsedListData.xsd" xmlns:mstns="http://tempuri.org/MaterialUsedListData.xsd" xmlns="http://tempuri.org/MaterialUsedListData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaterialUsedListData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MaterialUsedListData" msprop:Generator_UserDSName="MaterialUsedListData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="List" msprop:Generator_TableClassName="ListDataTable" msprop:Generator_TableVarName="tableList" msprop:Generator_TablePropName="List" msprop:Generator_RowDeletingName="ListRowDeleting" msprop:Generator_RowChangingName="ListRowChanging" msprop:Generator_RowEvHandlerName="ListRowChangeEventHandler" msprop:Generator_RowDeletedName="ListRowDeleted" msprop:Generator_UserTableName="List" msprop:Generator_RowChangedName="ListRowChanged" msprop:Generator_RowEvArgName="ListRowChangeEvent" msprop:Generator_RowClassName="ListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProcEnum" msprop:Generator_ColumnVarNameInTable="columnProcEnum" msprop:Generator_ColumnPropNameInRow="ProcEnum" msprop:Generator_ColumnPropNameInTable="ProcEnumColumn" msprop:Generator_UserColumnName="ProcEnum" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcCode" msprop:Generator_ColumnVarNameInTable="columnProcCode" msprop:Generator_ColumnPropNameInRow="ProcCode" msprop:Generator_ColumnPropNameInTable="ProcCodeColumn" msprop:Generator_UserColumnName="ProcCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcMnem" msprop:Generator_ColumnVarNameInTable="columnProcMnem" msprop:Generator_ColumnPropNameInRow="ProcMnem" msprop:Generator_ColumnPropNameInTable="ProcMnemColumn" msprop:Generator_UserColumnName="ProcMnem" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcName" msprop:Generator_ColumnVarNameInTable="columnProcName" msprop:Generator_ColumnPropNameInRow="ProcName" msprop:Generator_ColumnPropNameInTable="ProcNameColumn" msprop:Generator_UserColumnName="ProcName" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemNum" msprop:Generator_ColumnVarNameInTable="columnItemNum" msprop:Generator_ColumnPropNameInRow="ItemNum" msprop:Generator_ColumnPropNameInTable="ItemNumColumn" msprop:Generator_UserColumnName="ItemNum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

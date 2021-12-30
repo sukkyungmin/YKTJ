@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaterialTotalUsedDataSet" targetNamespace="http://tempuri.org/MaterialTotalUsedDataSet.xsd" xmlns:mstns="http://tempuri.org/MaterialTotalUsedDataSet.xsd" xmlns="http://tempuri.org/MaterialTotalUsedDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaterialTotalUsedDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MaterialTotalUsedDataSet" msprop:Generator_UserDSName="MaterialTotalUsedDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="List" msprop:Generator_TableClassName="ListDataTable" msprop:Generator_TableVarName="tableList" msprop:Generator_TablePropName="List" msprop:Generator_RowDeletingName="ListRowDeleting" msprop:Generator_RowChangingName="ListRowChanging" msprop:Generator_RowEvHandlerName="ListRowChangeEventHandler" msprop:Generator_RowDeletedName="ListRowDeleted" msprop:Generator_UserTableName="List" msprop:Generator_RowChangedName="ListRowChanged" msprop:Generator_RowEvArgName="ListRowChangeEvent" msprop:Generator_RowClassName="ListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MC_No" msprop:Generator_ColumnVarNameInTable="columnMC_No" msprop:Generator_ColumnPropNameInRow="MC_No" msprop:Generator_ColumnPropNameInTable="MC_NoColumn" msprop:Generator_UserColumnName="MC_No" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemNo" msprop:Generator_ColumnVarNameInTable="columnItemNo" msprop:Generator_ColumnPropNameInRow="ItemNo" msprop:Generator_ColumnPropNameInTable="ItemNoColumn" msprop:Generator_UserColumnName="ItemNo" type="xs:string" minOccurs="0" />
+              <xs:element name="SAPCode" msprop:Generator_ColumnVarNameInTable="columnSAPCode" msprop:Generator_ColumnPropNameInRow="SAPCode" msprop:Generator_ColumnPropNameInTable="SAPCodeColumn" msprop:Generator_UserColumnName="SAPCode" type="xs:string" minOccurs="0" />
+              <xs:element name="SAPDesc" msprop:Generator_ColumnVarNameInTable="columnSAPDesc" msprop:Generator_ColumnPropNameInRow="SAPDesc" msprop:Generator_ColumnPropNameInTable="SAPDescColumn" msprop:Generator_UserColumnName="SAPDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="RollCnt" msprop:Generator_ColumnVarNameInTable="columnRollCnt" msprop:Generator_ColumnPropNameInRow="RollCnt" msprop:Generator_ColumnPropNameInTable="RollCntColumn" msprop:Generator_UserColumnName="RollCnt" type="xs:string" minOccurs="0" />
+              <xs:element name="AbnormalCnt" msprop:Generator_ColumnVarNameInTable="columnAbnormalCnt" msprop:Generator_ColumnPropNameInRow="AbnormalCnt" msprop:Generator_ColumnPropNameInTable="AbnormalCntColumn" msprop:Generator_UserColumnName="AbnormalCnt" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdCnt" msprop:Generator_ColumnVarNameInTable="columnPrdCnt" msprop:Generator_ColumnPropNameInRow="PrdCnt" msprop:Generator_ColumnPropNameInTable="PrdCntColumn" msprop:Generator_UserColumnName="PrdCnt" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitAvg" msprop:Generator_ColumnVarNameInTable="columnUnitAvg" msprop:Generator_ColumnPropNameInRow="UnitAvg" msprop:Generator_ColumnPropNameInTable="UnitAvgColumn" msprop:Generator_UserColumnName="UnitAvg" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalLen" msprop:Generator_ColumnVarNameInTable="columnTotalLen" msprop:Generator_ColumnPropNameInRow="TotalLen" msprop:Generator_ColumnPropNameInTable="TotalLenColumn" msprop:Generator_UserColumnName="TotalLen" type="xs:string" minOccurs="0" />
+              <xs:element name="UsedLen" msprop:Generator_ColumnVarNameInTable="columnUsedLen" msprop:Generator_ColumnPropNameInRow="UsedLen" msprop:Generator_ColumnPropNameInTable="UsedLenColumn" msprop:Generator_UserColumnName="UsedLen" type="xs:string" minOccurs="0" />
+              <xs:element name="Butt" msprop:Generator_ColumnVarNameInTable="columnButt" msprop:Generator_ColumnPropNameInRow="Butt" msprop:Generator_ColumnPropNameInTable="ButtColumn" msprop:Generator_UserColumnName="Butt" type="xs:string" minOccurs="0" />
+              <xs:element name="LossAvg2" msprop:Generator_ColumnVarNameInTable="columnLossAvg2" msprop:Generator_ColumnPropNameInRow="LossAvg2" msprop:Generator_ColumnPropNameInTable="LossAvg2Column" msprop:Generator_UserColumnName="LossAvg2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
