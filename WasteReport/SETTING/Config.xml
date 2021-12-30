@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Setting>
+  <MDB>
+    <!--<path_유아1부>D:\DB\\유아1부\data.mdb</path_유아1부>
+    <path_TJ02>D:\DB\\TJ02\data.mdb</path_TJ02>
+    <path_TJ04>D:\DB\\TJ04\data.mdb</path_TJ04>-->
+    <pathDb>C:\db1_TJ01.mdb</pathDb>
+  </MDB>
+</Setting>
